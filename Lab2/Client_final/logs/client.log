@@ -1,0 +1,12 @@
+21:52:26.438 [main] INFO  ru.nsu.ccfit.shishmakov.main.Main - Client started his routine
+21:52:26.443 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client ip: 127.0.0.1
+21:52:26.448 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client started sending file info to server
+21:52:26.460 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client ended sending file info to server
+21:52:26.460 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client started receiving response from the server
+21:52:26.561 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client ended receiving response from the server
+21:52:26.563 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client started sending file to server
+21:52:32.992 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client ended sending file to server
+21:52:32.992 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client started receiving response about file transfer from server
+21:52:34.750 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - Client ended receiving response about file transfer from server
+21:52:34.750 [main] INFO  ru.nsu.ccfit.shishmakov.client.ClientRoutine - File being transferred successfully
+21:52:34.752 [main] INFO  ru.nsu.ccfit.shishmakov.main.Main - Client ended his routine

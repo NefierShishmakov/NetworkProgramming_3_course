@@ -1,0 +1,4 @@
+rootProject.name = 'Server_final'
+include ":Tools"
+project(":Tools").projectDir = file("../Tools")
+
