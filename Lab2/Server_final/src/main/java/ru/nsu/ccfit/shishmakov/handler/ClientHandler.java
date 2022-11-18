@@ -35,7 +35,7 @@ public class ClientHandler implements Runnable
     @Override
     public void run()
     {
-        try
+        try (this.socket)
         {
             clientHandlerLogger.info("Server started receiving FileInfo from the client with ip: " + this.clientIpAddress);
             FileInfo fileInfo = (FileInfo) this.clientRequestObjectReader.readObject();
@@ -94,16 +94,6 @@ public class ClientHandler implements Runnable
                 + this.clientIpAddress + Utils.getStrStackTrace(ex));
             }
 
-            try
-            {
-                this.socket.close();
-            }
-            catch (IOException ex)
-            {
-                clientHandlerLogger.error("Failed to close socket for the client with ip - " + this.clientIpAddress
-                + Utils.getStrStackTrace(ex));
-            }
-
             clientHandlerLogger.info("Server stopped serving the client with ip - " + this.clientIpAddress);
         }
     }
@@ -124,7 +114,8 @@ public class ClientHandler implements Runnable
         fileContext.createFile(fileInfo.getFileName(), filesDirectoryStrPath);
     }
 
-    private void readFileFromClient(FileContext fileContext) throws IOException, ClassNotFoundException {
+    private void readFileFromClient(FileContext fileContext) throws IOException, ClassNotFoundException
+    {
         this.startTimeOfReadingFile = System.currentTimeMillis();
 
         while (true)

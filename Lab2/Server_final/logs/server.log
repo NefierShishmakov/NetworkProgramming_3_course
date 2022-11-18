@@ -1,16 +1,75 @@
-21:52:22.381 [main] INFO  ru.nsu.ccfit.shishmakov.main.Main - Server started his routine
-21:52:22.385 [main] FATAL ru.nsu.ccfit.shishmakov.server.ServerRoutine - Server was shutdown forcefully
-21:52:26.443 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
-21:52:26.448 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
-21:52:26.512 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
-21:52:26.514 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
-21:52:26.516 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
-21:52:26.516 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving 3-file.txt file from the client with ip - 127.0.0.1
-21:52:29.518 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 61957888B/s
-21:52:29.518 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 61957888B/s
-21:52:32.518 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 65426517B/s
-21:52:32.518 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 63692202B/s
-21:52:34.709 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving 3-file.txt file from the client with ip - 127.0.0.1
-21:52:34.709 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
-21:52:34.709 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
-21:52:34.898 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
+16:16:19.237 [main] INFO  ru.nsu.ccfit.shishmakov.main.Main - Server started his routine
+16:17:28.056 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
+16:17:28.060 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
+16:17:28.124 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
+16:17:28.124 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:28.126 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:28.126 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving lalalalal file from the client with ip - 127.0.0.1
+16:17:28.234 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 5171B/s
+16:17:28.235 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 5171B/s
+16:17:28.235 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving lalalalal file from the client with ip - 127.0.0.1
+16:17:28.236 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
+16:17:28.236 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
+16:17:28.239 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
+16:17:48.034 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
+16:17:48.036 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
+16:17:48.089 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
+16:17:48.097 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:48.098 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:48.098 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving 1-lalalalal file from the client with ip - 127.0.0.1
+16:17:48.194 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 5333B/s
+16:17:48.195 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 5333B/s
+16:17:48.195 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving 1-lalalalal file from the client with ip - 127.0.0.1
+16:17:48.195 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
+16:17:48.196 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
+16:17:48.196 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
+16:17:49.016 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
+16:17:49.017 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
+16:17:49.069 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
+16:17:49.069 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:49.070 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:49.070 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving 2-lalalalal file from the client with ip - 127.0.0.1
+16:17:49.158 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 5818B/s
+16:17:49.159 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 5818B/s
+16:17:49.159 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving 2-lalalalal file from the client with ip - 127.0.0.1
+16:17:49.159 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
+16:17:49.159 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
+16:17:49.160 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
+16:17:49.986 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
+16:17:49.987 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
+16:17:50.042 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
+16:17:50.043 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:50.043 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:50.044 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving 3-lalalalal file from the client with ip - 127.0.0.1
+16:17:50.138 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 5446B/s
+16:17:50.139 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 5446B/s
+16:17:50.139 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving 3-lalalalal file from the client with ip - 127.0.0.1
+16:17:50.139 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
+16:17:50.139 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
+16:17:50.140 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
+16:17:50.723 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
+16:17:50.724 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
+16:17:50.777 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
+16:17:50.777 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:50.778 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:17:50.778 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving 4-lalalalal file from the client with ip - 127.0.0.1
+16:17:50.866 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 5818B/s
+16:17:50.866 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 5818B/s
+16:17:50.866 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving 4-lalalalal file from the client with ip - 127.0.0.1
+16:17:50.867 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
+16:17:50.867 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
+16:17:50.867 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
+16:18:25.435 [main] INFO  ru.nsu.ccfit.shishmakov.server.ServerRoutine - Client with ip - 127.0.0.1 has been connected
+16:18:25.437 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving FileInfo from the client with ip: 127.0.0.1
+16:18:25.489 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving FileInfo from the client with ip: 127.0.0.1
+16:18:25.490 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:18:25.491 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending FILE_CREATION_SUCCESS response to client with ip - 127.0.0.1
+16:18:25.491 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started receiving file.txt file from the client with ip - 127.0.0.1
+16:18:28.491 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 57824853B/s
+16:18:28.491 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 57824853B/s
+16:18:31.491 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Instantaneous speed for client (127.0.0.1) is: 63619669B/s
+16:18:31.491 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Average speed for client (127.0.0.1) is: 60722261B/s
+16:18:33.991 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended receiving file.txt file from the client with ip - 127.0.0.1
+16:18:33.991 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server started sending status about file receiving to the client with ip - 127.0.0.1
+16:18:33.991 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server ended sending status about file receiving to the client with ip - 127.0.0.1
+16:18:34.438 [pool-2-thread-1] INFO  ru.nsu.ccfit.shishmakov.handler.ClientHandler - Server stopped serving the client with ip - 127.0.0.1
