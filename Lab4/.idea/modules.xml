@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/T4Snake.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/T4Snake.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/T4Snake.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/T4Snake.app.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.T4Snake.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.T4Snake.app.main.iml" />
     </modules>
   </component>

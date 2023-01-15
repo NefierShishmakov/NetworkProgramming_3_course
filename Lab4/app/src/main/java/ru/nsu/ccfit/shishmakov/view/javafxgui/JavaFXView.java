@@ -36,8 +36,8 @@ public class JavaFXView extends Application implements View {
     private static Stage primaryStage;
     private static VBox players;
 
-    private static final Font bigFont = Font.loadFont("file:src/main/resources/superfont.woff", 42);
-    private static final Font smallFont = Font.loadFont("file:src/main/resources/font2.ttf", 16);
+    private static final Font bigFont = Font.loadFont("file:src/main/resources/EleanoreDEMO.otf", 42);
+    private static final Font smallFont = Font.loadFont("file:src/main/resources/EleanoreDEMO.otf", 16);
     public void startGui(ControllerForView controllerForView){
         JavaFXView.controllerForView = controllerForView;
         launch();
@@ -61,7 +61,8 @@ public class JavaFXView extends Application implements View {
         HBox.setHgrow(field, Priority.ALWAYS);
 
         Scene scene = new Scene(layout);
-        layout.setBackground(new Background(new BackgroundFill(new Color(0.607, 0.462, 0.325,1), CornerRadii.EMPTY, Insets.EMPTY)));
+        //new BackgroundFill(new Color(0.607, 0.462, 0.325,1)
+        layout.setBackground(new Background(new BackgroundFill(new Color(0.607, 0.462, 0.325,0), CornerRadii.EMPTY, Insets.EMPTY)));
         addSceneKeyListener(scene);
         scene.getStylesheets().addAll(Path.of("src/main/resources/buttonsStyle.css").toUri().toURL().toExternalForm());
 
@@ -81,7 +82,8 @@ public class JavaFXView extends Application implements View {
         styleButton(exitButton, bigFont);
 
         menu = new VBox(startButton, findGameButton, settingsButton, exitButton);
-        menu.setBackground(new Background(new BackgroundFill(new Color(0.607, 0.462, 0.325,1), CornerRadii.EMPTY, Insets.EMPTY)));
+        //new Background(new BackgroundFill(new Color(0.607, 0.462, 0.325,0
+        menu.setBackground(new Background(new BackgroundFill(new Color(0, 0, 0,0), CornerRadii.EMPTY, Insets.EMPTY)));
     }
 
     private void initInGameMenu(){
@@ -342,6 +344,7 @@ public class JavaFXView extends Application implements View {
 
     private void styleButton(Button button, Font font){
         button.setId("button");
+        button.setStyle("-fx-text-fill: white");
         if(font != null){
             button.setFont(font);
         }

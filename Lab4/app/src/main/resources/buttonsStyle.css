@@ -1,7 +1,6 @@
 #button{
-    -fx-background-image: url("buttonBackground.png");
+    -fx-background-image: url("butt.png");
     -fx-background-repeat: no-repeat;
     -fx-background-size: cover;
     -fx-background-position: center center;
-    /*-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);*/
 }
